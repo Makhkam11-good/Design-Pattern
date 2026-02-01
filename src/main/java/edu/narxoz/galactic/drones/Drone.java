@@ -30,7 +30,7 @@ public abstract class Drone {
 
     public abstract double speedKmPerMin();
 
-    protected void setStatus(DroneStatus status) {
+    public void setStatus(DroneStatus status) {
         this.status = status;
     }
 }
